@@ -23,3 +23,9 @@ variable "instance_name2" {
   type = string
   default = "instance_2"
 }
+
+variable "type_instance" {
+  type = string
+  description = "Ec2 instance type for project"
+  default = "t2.micro"
+}
